@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assin-5</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    <!-- Navbar ------------------------------------------------------------->
+<header>    
+<div class="navbar bg-base-100">
+  <div class="navbar-start pl-10">
+    <button class="btn btn-success">Home</button>
+  </div>
+  <div class="navbar-center">
+    <img src="assets/logo.png" alt="" srcset="">
+    <div class="pl-7 text-lg">Donate Bangladesh</div>
+  </div>
+  <div class="navbar-end">
+        <img src="assets/coin.png" alt="">
+        <div id="total-cash" class="text-lg pl-2 pr-10">100000000000</div>
+  </div>
+  </div>
+</header>
+<!-- 2ta button ------------------------------------------------------------>
+<div class="navbar bg-base-100">
+        <div class="navbar-start pl-10">
+            <div></div>
+        </div>
+        <div class="navbar-center">
+          <button id="donateBtn" class="btn">Donate</button>
+          <div class="text-white">..... </div>
+          <button id="historyBtn" class="btn">History</button>
+
+        </div>
+        <div class="navbar-end">
+         <div></div>
+        </div>
+</div>
+<!-- Item box----------------------------------------------------------------->
+<main id="donate">
+  <!-- 1st one --------------------------------------------------------------->
+  <nav class="card bg-base-100 shadow-xl grid lg:grid-cols-2 pt-3">
+    <figure class="px-10 pt-10">
+      <img
+        src="assets/noakhali.png"
+        alt="Shoes"
+        class="rounded-xl" />
+    </figure>
+    <!-- <div> -->
+      <div>
+        <div class="flex pt-10">
+          <img src="assets/coin.png" alt="">
+          <div id="donated-amount-1" class="text-lg pl-2 pr-10">000 </div>
+      </div>
+      <h4 class="text-2xl font-bold pt-3 pl-3">Donate for FLood, Noakhali, Bangladesh</h4>
+      
+      <p class="py-6 pl-3">
+        Flooding events included Severe Cyclonic Storm Remal, which made landfall in Bangladesh on May 26. Heavy rains continued throughout June and July, with flooding conditions present around June 16, late June to early July, July 18 and then August 15-26. In total, several million people have been affected.
+      </p>
+      <p class="pl-4">
+        <input id="add-money-1" type="text" placeholder="Type here" class="input input-bordered " />
+      </p>
+      <p class="pt-4 pl-3">
+        <button id="donate-Btn-1" class="btn btn-success px-44">Get Started</button> </p>
+    <!-- </div> -->
+  </nav>
+<!-- 2nd one -------------------------------------------------------------->
+<nav class="card bg-base-100 shadow-xl grid lg:grid-cols-2 pt-3">
+  <figure class="px-10 pt-10">
+    <img
+      src="assets/feni.png"
+      alt="Shoes"
+      class="rounded-xl" />
+  </figure>
+  <div class="pl-3">
+    <div>
+      <div class="flex pt-8">
+        <img src="assets/coin.png" alt="">
+        <div id="donated-amount-2" class="text-lg pl-2 pr-10">00</div>
+    </div>
+    <h4 class="text-2xl font-bold pt-3">Donate for FLood, Noakhali, Bangladesh</h4>
+    
+    <p class="py-6">
+      Flooding events included Severe Cyclonic Storm Remal, which made landfall in Bangladesh on May 26. Heavy rains continued throughout June and July, with flooding conditions present around June 16, late June to early July, July 18 and then August 15-26. In total, several million people have been affected.
+    </p>
+    <p>
+      <input id="add-money-2" type="text" placeholder="Type here" class="input input-bordered " />
+    </p>
+    <p class="pt-4">
+      <button id="donate-Btn-2" class="btn btn-success px-44">Get Started</button> </p>
+  </div>
+</nav>
+
+<!-- 3nd one -------------------------------------------------------------->
+<nav class="card bg-base-100 shadow-xl grid lg:grid-cols-2 pt-3">
+  <figure class="px-10 pt-10">
+    <img
+      src="assets/quota-protest.png"
+      alt="Shoes"
+      class="rounded-xl" />
+  </figure>
+  <div class="pl-3">
+    <div>
+      <div class="flex pt-8">
+        <img src="assets/coin.png" alt="">
+        <div id="donated-amount-3" class="text-lg pl-2 pr-10">00</div>
+    </div>
+    <h4 class="text-2xl font-bold pt-3">Donate for FLood, Noakhali, Bangladesh</h4>
+    
+    <p class="py-6">
+      According to a 2021 study, global heating is making the South Asian monsoon season more intense and erratic. In 2024, monsoon rains began earlier than usual.
+    </p>
+    <p>
+      <input id="add-money-3" type="text" placeholder="Type here" class="input input-bordered " />
+    </p>
+    <p class="pt-4">
+      <button id="donate-Btn-3" class="btn btn-success px-44">Get Started</button> </p>
+  </div>
+</nav>
+</main>
+
+
+<section id="history" class="hidden">
+  Your history content here
+</section>
+<script src="index.js"></script>
+<script src="fun.js"></script>
+</body>
+</html>
