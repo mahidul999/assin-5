@@ -27,6 +27,12 @@ document.querySelector("#historyBtn").addEventListener("click", function(){
 });
 
 function onClickBlog() {
-    location.replace("")
+    window.location.href = "https://mahidul999.github.io/assin-5/blog.html";
   }
+
+  function onClickHome() {
+    // location.replace("https://mahidul999.github.io/assin-5/index.html")
+    window.location.href = "https://mahidul999.github.io/assin-5/index.html";  
+}
+
 
