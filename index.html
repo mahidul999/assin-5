@@ -12,8 +12,8 @@
     <!-- Navbar ------------------------------------------------------------->
 <header>    
 <div class="navbar bg-base-100">
-  <div class="navbar-start pl-10">
-    <button class="btn btn-success">Home</button>
+  <div class="navbar-start pl-10"> 
+    <button id="Blog" onclick="onClickBlog()" class="btn btn-success">Blog</button>
   </div>
   <div class="navbar-center">
     <img src="assets/logo.png" alt="" srcset="">
@@ -124,10 +124,16 @@
 </main>
 
 
-<section id="history" class="hidden">
-  Your history content here
+<section id="history" class="hidden text-2xl pl-10 pr-10">
+  Your Donation History:
+  <div id="money-history" class="text-gray-50 py-6">
+
+
+  </div>
 </section>
 <script src="index.js"></script>
 <script src="fun.js"></script>
 </body>
 </html>
+
+

@@ -1,47 +1,32 @@
-// function donateBtnClicked(ID) {
-
-//     document.querySelector("#hisory").classList.add('hiddden');
-//     document.querySelector(ID).classList.remove('hiddden');
-    
-// }
-
-
-// function historyBtnClicked(ID) {
-
-//     document.querySelector(ID).classList.remove('hiddden');
-//     document.querySelector("#donate").classList.add('hiddden');
-    
-// }
-
-
-// document.querySelector("#donate").addEventListener("clicked", function(){
-
-//     donateBtnClicked("#donate");
-// }
-//  )
-
-//  document.querySelector("#hisory").addEventListener("clicked", function(){
-
-//     historyBtnClicked("#hisory");
-// }
-//  )
-
 
 function donateBtnClicked(ID) {
-    document.querySelector("#history").classList.add('hidden'); // Fixed typos
-    document.querySelector(ID).classList.remove('hidden');     // Fixed typos
+    
+    document.querySelector("#history").classList.add('hidden');
+    document.querySelector(ID).classList.remove('hidden');
+    document.querySelector("#historyBtn").classList.remove('btn-success')
 }
 
 function historyBtnClicked(ID) {
-    document.querySelector(ID).classList.remove('hidden');
+
+    document.querySelector(ID).classList.remove('hidden','btn-success');
     document.querySelector("#donate").classList.add('hidden');
+    document.querySelector("#donateBtn").classList.remove('btn-success')
 }
 
 // Corrected event listeners
 document.querySelector("#donateBtn").addEventListener("click", function(){
     donateBtnClicked("#donate");
+    document.querySelector("#donateBtn").classList.add('btn-success')
+    
 });
 
 document.querySelector("#historyBtn").addEventListener("click", function(){
     historyBtnClicked("#history");
+    document.querySelector("#historyBtn").classList.add('btn-success')
+
 });
+
+function onClickBlog() {
+    location.replace("")
+  }
+
