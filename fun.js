@@ -9,7 +9,7 @@ function donateBtnClicked(ID) {
 function historyBtnClicked(ID) {
 
     document.querySelector(ID).classList.remove('hidden','btn-success');
-    document.querySelector("#donate").classList.add('hidden');
+    document.querySelector("#donate").classList.add('hidden') ;
     document.querySelector("#donateBtn").classList.remove('btn-success')
 }
 
