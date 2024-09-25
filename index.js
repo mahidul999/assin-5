@@ -22,8 +22,8 @@ document.querySelector( "#donated-amount-1").innerText = total1;
 const A = document.createElement('p');
 const date = new Date(2023, 8, 10, 23, 15, 34, 0);
 A.classList.add('bg-black')
-A.innerText = `Doneted: ${addMoney1}, Current balance is ${currentTotal}
-Current time is:   ${date}`
+A.innerText = `Doneted ${addMoney1} BDT for Noyakhali, Current balance is ${currentTotal}
+Current time is: ${date}`
 document.querySelector('#money-history').appendChild(A);
 
 }
@@ -56,8 +56,8 @@ document.querySelector( "#donated-amount-2").innerText = total2;
 const B = document.createElement('p');
 const date = new Date(2023, 8, 10, 23, 15, 34, 0);
 B.classList.add('bg-black')
-B.innerText = `Doneted: ${addMoney2}, Current balance is ${currentTotal}
-Current time is:   ${date}`
+B.innerText = `Doneted ${addMoney2} BDT for Feli, Current balance is ${currentTotal}
+Current time is: ${date}`
 document.querySelector('#money-history').appendChild(B);
 
 }
@@ -92,8 +92,8 @@ document.querySelector( "#donated-amount-3").innerText = total3;
 const C = document.createElement('p');
 const date = new Date(2023, 8, 10, 23, 15, 34, 0);
 C.classList.add('bg-black')
-C.innerText = `Doneted: ${addMoney3}, Current balance is ${currentTotal}
-Current time is:   ${date}`
+C.innerText = `Doneted ${addMoney3} BDT for Protesters, Current balance is ${currentTotal}
+Current time is: ${date}`
 document.querySelector('#money-history').appendChild(C);
 
 }
